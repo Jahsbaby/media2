@@ -1,0 +1,432 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif,;
+    box-sizing: border-box;
+}
+.liverpool {
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    border: 2px solid whitesmoke;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.nav-bar {
+  position: absolute;
+  right: 520px;
+  display: block;
+  top: 40px;
+}
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-bar li {
+  float: left;
+  font-size: 18px;
+  padding-right: 25px;
+}
+.nav-bar li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-bar li a:hover {
+  font-size: 15px;
+  color: grey;
+}
+  .fa-solid {
+    float: right;
+    margin-top: 50px;
+    padding-right: 30px;
+  }
+  .man-city {
+    position: absolute;
+    width: 98%;
+    background-color: white;
+    height: 600px;
+    left: 12px;
+    top: 590px;
+  }
+  .england {
+    position: absolute;
+    border-bottom: 1px solid lightgray;
+  }
+  .england img {
+    padding-left: 90px;
+    margin-top: 50px;
+  }
+  .argentina {
+    position: absolute;
+    margin-top: 85px;
+    border-bottom: 1px solid lightgray;
+  }
+  .argentina p {
+    padding-left: 580px;
+    line-height: 1.5;
+    font-size: 25px;
+  }
+  .ronaldo {
+    position: absolute;
+    margin-top: 275px;
+    
+  }
+  .ronaldo p {
+    padding-left: 580px;
+    font-size: 18px;
+  }
+  .benzema {
+    position: absolute;
+    margin-top: 470px;
+    left: 130px;
+  }
+  .benzema h1 {
+    color: red;
+    font-size: 70px;
+    text-align: center;
+  }
+  .benzema p {
+    font-size: 23px;
+    color: gray;
+  }
+  .mbappe {
+    position: absolute;
+    margin-top: 470px;
+    left: 470px;
+  }
+  .mbappe h1 {
+    color: red;
+    font-size: 70px;
+    text-align: center;
+  }
+  .mbappe p {
+    font-size: 23px;
+    color: gray;
+  }
+  .messi-the-goat {
+    position: absolute;
+    margin-top: 470px;
+    left: 930px;
+  }
+  .messi-the-goat h1 {
+    color: red;
+    font-size: 70px;
+    text-align: center;
+  }
+  .messi-the-goat p {
+    font-size: 23px;
+    color: gray;
+  }
+  .kain {
+    position: absolute;
+    margin-top: 640px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .sadio-mane {
+    position: absolute;
+    margin-top: 790px;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.5;
+  }
+  .justin-beiber {
+    position: absolute;
+    margin-top: 1150px;
+  }
+  .cardi-b {
+    position: absolute;
+    margin-top: 1150px;
+    left: 400px;
+  }
+  .nicky-minag {
+    position: absolute;
+    margin-top: 1150px;
+    left: 800px;
+  }
+  .drake {
+    position: absolute;
+    margin-top: 1600px;
+    text-align: left;
+    left: 100px;
+    line-height: 1.5;
+  }
+  .eminem {
+    position: absolute;
+    margin-top: 1650px;
+    text-align: left;
+    right: 60px;
+    font-size: 20px;
+  }
+  .fa-quote {
+    position: absolute;
+    color: red;
+  }
+  .mosallah-my-idolo {
+    position: absolute;
+    margin-top: 2500px;
+    left: 100px;
+  }
+  .first {
+    position: absolute;
+    top: 200px;
+    left: 50px; 
+  }
+  .avatar {
+    position: absolute;
+    margin-top: 2700px;
+    left: 400px;
+  }
+  .anime {
+    position: absolute;
+    margin-top: 2700px;
+    left: 700px;
+  }
+  .cartoon {
+    position: absolute;
+    margin-top: 2700px;
+    left: 1000px; 
+  }
+  .obo {
+    position: absolute;
+    margin-top: 2900px;
+    left: 150px;
+  }
+  .starboy {
+    position: absolute;
+    margin-top: 2900px;
+    left: 400px;
+  }
+  .gucchi {
+    position: absolute;
+    margin-top: 2900px;
+    left: 700px; 
+  }
+  .prada {
+    position: absolute;
+    margin-top: 2900px;
+    left: 1000px;
+  }
+  .troll {
+    position: absolute;
+    margin-top: 3100px;
+    left: 150px;
+  }
+  .phyna {
+   position: absolute;
+   margin-top: 3100px;
+   left: 400px;
+  }
+  .dev-b {
+  position: absolute;
+  margin-top: 3100px;
+  left: 700px;
+  }
+  .jahspride {
+    position: absolute;
+    margin-top: 3100px;
+    left: 1000px;
+  }
+  .tupac {
+    position: absolute;
+    margin-top: 3300px;
+    left: 150px;
+  }
+  .juice-world {
+    position: absolute;
+    margin-top: 3300px;
+    left: 400px;
+  }
+  .dream {
+    position: absolute;
+    margin-top: 3300px;
+    left: 700px;
+  }
+  .arcade {
+    position: absolute;
+    margin-top: 3300px;
+    left: 1000px;
+  }
+  .people {
+    position: absolute;
+    margin-top: 3500px;
+    left: 150px;
+  }
+  .enter {
+    position: absolute;
+    margin-top: 3500px;
+    left: 400px;
+  }
+  .rest {
+    position: absolute;
+    margin-top: 3500px;
+    left: 700px; 
+  }
+  .game {
+    position: absolute;
+    margin-top: 3500px;
+    left: 1000px;
+  }
+  .for-life {
+    position: absolute;
+    margin-top: 3700px;
+    left: 150px;
+  }
+  .but {
+    position: absolute;
+    margin-top: 3700px;
+    left: 400px;
+  }
+  .no-benefits {
+    position: absolute;
+    margin-top: 3700px;
+    left: 700px;
+  }
+  .of-being-from-9ja {
+    position: absolute;
+    margin-top: 3700px;
+    left: 1000px;
+  }
+  .rain-cats-and-dogs {
+    position: relative;
+    height: 250px;
+    top: 3850px;
+    background-color: #000;
+    opacity: 0.9;
+  }
+  .footer {
+    position: absolute;
+    right: 690px;
+    display: block;
+    top: 20px;
+  }
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer li {
+    float: left;
+    font-size: 13px;
+    padding-right: 12px;
+  }
+  .footer li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer li a:hover {
+    font-size: 15px;
+    color: red;
+  }
+  .footer2 {
+    position: absolute;
+    right: 45px;
+    display: block;
+    top: 20px;
+  }
+  .footer2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer2 li {
+    float: left;
+    font-size: 15px;
+    padding-right: 12px;
+  }
+  .footer2 li a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer2 li a:hover {
+    font-size: 15px;
+    color: red;
+  }
+  .footer3 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+  .footer4 p {
+    position: absolute;
+    left: 120px;
+    top: 85px;
+  }
+  .footer5 {
+    position: absolute;
+    right: 150px;
+    display: block;
+    top: 85px;
+  }
+  .footer5 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer5 li {
+    float: left;
+    font-size: 13px;
+    padding-right: 15px;
+  }
+  .footer5 li a {
+    color: #f1f1f1;
+    text-decoration: underline lightgray;
+  }
+  .footer5 li a:hover {
+    font-size: 15px;
+    color: red;
+  }
+  .footer6 p {
+    position: absolute;
+    right: 300px;
+    top: 150px;
+    color: #f1f1f1;
+  }
+  .fa-instagram {
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    right: 250px;
+  }
+  .fa-facebook {
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    right: 200px;
+  }
+  .fa-twitter {
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    right: 150px;
+  }
+  .fa-linkedin-in {
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    right: 100px;
+  }
+  .fa-youtube {
+    position: absolute;
+    top: 150px;
+    color: lightgray;
+    right: 50px;
+  }
+  .rain-cats-and-dogs h6 {
+    padding-left: 180px;
+    padding-top: 90px;
+    color: #f1f1f1;
+  }
